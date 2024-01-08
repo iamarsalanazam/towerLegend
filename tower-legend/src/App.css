@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+
+}
+.main{
+  width: 600px;
+display: flex;
+margin: 0 auto;}
+
+.common{
+  background-image: url('./assets/commonBackground.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #31343C;
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.commonWithOutBet{
+  background-image: url('./assets/commonBackground.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #31343C;
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0.7;
+}
+.yellow{
+  background-image: url('./assets/cby_item.abb9c140.png');
+  background-color: #e9c863;
+  pointer-events: none;
+
+}
+.bomb{
+  background-image: url('./assets/dangerFailed.svg');
+  background-color: #bc4b50;
+  pointer-events: none;
+}
+.opacity{
+  opacity: 1;
+  background-image: url('./assets/opacityGreen.svg');
+  background-color: #79ab52;
+}
+.noOpacity{
+  opacity: 0.7;
+  pointer-events: none;
+}
+.disable{
+  pointer-events: none;
+}
+/* .bombDisable{
+  pointer-events: none;
+  opacity: 0.5;
+} */
+.bombFinish{  
+  background-image: url('./assets/cbr_item.webp');
+  background-color: #bc4b50;
+  pointer-events: none;
+opacity: 0.7;}
+.yellowFinish{
+  background-image: url('./assets/cby_item.abb9c140.png');
+  background-color: #e9c863;
+  pointer-events: none;
+  opacity: 0.7;
+}
+.bombFinishRow{
+  background-image: url('./assets/cbr_item.webp');
+  background-color: #bc4b50;
+  pointer-events: none;
+opacity: 1;
+}
+
